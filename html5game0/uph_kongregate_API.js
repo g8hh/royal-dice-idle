@@ -9,17 +9,17 @@
 var version = "1.0";
 
 function kongGetAPI() {
-	try {
-		if (typeof parent.kongregate === 'undefined') {
-			throw "APIUndefinedException";
-		}
-		return (parent.kongregate);
-	} catch (e) {
-		if (e = "APIUndefinedException") {
-			logError();
-		}
-		return -1;
-	}
+//	try {
+//		if (typeof parent.kongregate === 'undefined') {
+//			throw "APIUndefinedException";
+//		}
+//		return (parent.kongregate);
+//	} catch (e) {
+//		if (e = "APIUndefinedException") {
+//			logError();
+//		}
+//		return -1;
+//	}
 }
 
 function kongInit() {
